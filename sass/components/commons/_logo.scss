@@ -1,0 +1,22 @@
+.logo {
+  width: 66px;
+  height: 55px;
+  transform: scale(1);
+  @include transitioned(transform);
+  &:hover,
+  &:focus {
+    transform: scale(1.2);
+  }
+  @include media(767px, max-width) {
+    fill: $lightTitleBtnColor;
+  }
+  @include media(768px) {
+    margin-right: 60px;
+    margin-left: 10px;
+    align-self: flex-start;
+  }
+  @include media(1200px) {
+    margin-right: 70px;
+    align-self: flex-start;
+  }
+}
