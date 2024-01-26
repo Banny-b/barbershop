@@ -494,7 +494,7 @@ img {
 }
 @media screen and (max-width: 767px) {
   .header__tel {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 1.39;
     letter-spacing: 0.1em;
     margin-bottom: 24px;
